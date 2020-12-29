@@ -1,0 +1,23 @@
+{
+  "name": "webp-batch",
+  "version": "1.0.0",
+  "description": "Converts all images in a directory to webp format.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webp",
+    "cwebp",
+    "compress",
+    "minify",
+    "optimize",
+    "img",
+    "image"
+  ],
+  "author": "Moritz Wunderwald",
+  "license": "ISC",
+  "dependencies": {
+    "cwebp": "^2.0.5"
+  }
+}
