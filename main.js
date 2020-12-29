@@ -1,3 +1,2 @@
-module.exports = dir => {
-    
-}
+const { default: webpBatch } = require("./webpBatch");
+module.exports = dir => webpBatch(dir);
