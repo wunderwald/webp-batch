@@ -1,5 +1,5 @@
-import discoverImgs from './discoverImgs';
-import convert from './convert';
+const discoverImgs = require('./discoverImgs');
+const convert = require('./convert');
 
 const fs = require('fs');
 
@@ -16,4 +16,4 @@ const webpBatch = ({ dir }) => {
     return summary;
 };
 
-export default webpBatch;
+module.exports = webpBatch;

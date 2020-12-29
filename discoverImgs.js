@@ -7,4 +7,4 @@ const discoverImgs = dir => {
     return imgFiles;
 }
 
-export default discoverImgs;
+module.exports = discoverImgs;

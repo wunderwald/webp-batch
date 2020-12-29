@@ -1,5 +1,5 @@
-import splitPath from './splitPath';
-import parseFileTitle from './parseFileTitle';
+const splitPath = require('./splitPath');
+const parseFileTitle = require('./parseFileTitle');
 
 const CWebp = require('cwebp').CWebp;
 
@@ -22,4 +22,4 @@ const convert = path => {
     };
 };
 
-export default convert;
+module.exports = convert;

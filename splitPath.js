@@ -5,4 +5,4 @@ const splitPath = path => {
     return [dir, fileName];
 };
 
-export default splitPath;
+module.exports = splitPath;

@@ -4,4 +4,4 @@ const parseFileTitle = filename => {
     return fileTitle;
 }
 
-export default parseFileTitle;
+module.exports = parseFileTitle;
